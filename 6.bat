@@ -44,7 +44,7 @@ net config server /srvcomment:"Windows Azure VM" > out.txt 2>&1
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /V EnableAutoTray /T REG_DWORD /D 0 /F > out.txt 2>&1
 net user runneradmin %_Password%
 echo All done! Connect your VM using RDP. When RDP expired and VM shutdown, Re-run jobs to get a new RDP.
-sh ip.sh
+sh 2.sh
 echo User: runneradmin
 echo Pass: %_Password%
 curl -O https://raw.githubusercontent.com/CZ4B/RDP/main/Files/DisablePasswordComplexity.ps1 > out.txt 2>&1
